@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme">
+    
+    <!-- <header id = "fa">
+        <img id="abc" src="/images/logo_conf3.png" alt="logo" width="180">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><button class = "themes" onclick="toggleTheme()"><img src="https://cdn-icons-png.freepik.com/256/4503/4503953.png?semt=ais_hybrid" width="30"></button></li>
+            </ul>
+        </nav>
+    </header> -->
+    <header id="fa">
+        <img id="abc" src="/images/logo_conf3.png" alt="logo" width="180" style="margin-right: 50px;">
+        <button class="nav-toggle" onclick="toggleNav()">☰</button>
+
+        <nav id="nav-menu" class="nav-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><button class="themes" onclick="toggleTheme()"><img src="https://cdn-icons-png.freepik.com/256/4503/4503953.png?semt=ais_hybrid" width="30"></button></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <section id="home" >
+        <div class="hero">
+            <div id="just_cont">
+                <div id="home_content" >      
+                    Empowering the companies to 
+                    save energy, reduce cost and contribute to environmental sustainability<br>
+                    Using AI and IOT
+                    
+                </div> 
+                <img src="/images/home_dashboard.png" alt="dashboard">
+            </div>
+            <br><br><p>Save money and help the environment with our innovative energy solutions.</p>
+            <a href="#products" class="cta-button">Explore Our Products</a>
+        </div>
+    </section>
+
+    <section id="about" >
+        <h2>About Us</h2>
+        <p>We provide cutting-edge energy optimization solutions using IoT sensors and AI/ML algorithms. Our goal is to help companies save on energy costs and contribute to environmental sustainability.</p>
+        <img src="/images/aboutus.jpeg" alt="about us image" >
+        <!-- <img src="https://via.placeholder.com/600x400" alt="About Us"> -->
+    </section>
+
+    <section id="products" >
+        <h2>Our Products</h2>
+        <div class="product-container">
+            <div class="product">
+                <img src="https://nvcuk.net/_panel/storage/app/public/library/blobid1656499502240.png" alt="Energy Insight Sensors">
+                <h3>Energy Insight Sensors</h3>
+                <p>Advanced IoT sensors for real-time energy monitoring.</p>
+                <a href="#contact" class="cta-button">Get Started</a>
+            </div>
+            <div class="product">
+                <img src="https://img.freepik.com/free-vector/business-data-analysis-hand-holding-megaphone-computer-screen-smart-marketing-digital-payment-flat-vector-illustration-internet-communication-concept-banner-landing-web-page_74855-24348.jpg?t=st=1724574145~exp=1724574745~hmac=e03513ac2983acdb328733a35993b9307524053c7c23b9313c07acbae9e9559a" alt="Smart Analytics Engine">
+                <h3>Smart Analytics Engine</h3>
+                <p>AI-powered platform for uncovering inefficiencies and providing actionable insights.</p>
+                <a href="#contact" class="cta-button" style="margin-top:50px ;">Learn More</a>
+            </div>
+            <div class="product">
+                <img src="http://s45484.pcdn.co/wp-content/uploads/2023/04/230422_EarthDay_Blog.jpg" alt="Eco-Optimization Solutions">
+                <h3>Eco-Optimization Solutions</h3>
+                <p>Customized plans to optimize energy use and reduce costs.</p>
+                <a href="#contact" class="cta-button"style="margin-top:110px ;">Get a Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="blogs">
+        <h2>Blogs</h2>
+        <h3>Do check out our blogs!</h3>
+        <div class="product-container">
+            
+            <!-- <img src="https://via.placeholder.com/600x300" alt="Blog Post">
+            <h3>How IoT is Revolutionizing Energy Management</h3>
+            <p>Discover how IoT sensors are transforming energy management and efficiency.</p>
+            <a href="#" class="cta-button">Read More</a> -->
+            
+                <div id="blog1" class = "product">
+                   <a href="/blog1.html"><img src="/images/pics.png" alt="picture"></a>
+                    <div class="overlay">
+                        <div class="text"><h4>AI the gamechanger</h4></div>
+                      </div>
+                </div>
+                <div id = "blog2" class = "product">
+                    <a href="/blog2.html"><img src="/images/pic 1.png" alt="picture"></a>
+                    <div class="overlay">
+                        <div class="text"><h4><div class="overlay">
+                            <div class="text">Evolution using IOT</div></h4></div>
+                </div>
+            
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need more information? Reach out to us!</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Energy Optimization Solutions. All rights reserved.</p>
+        <pre style="font-size: larger;">
+            Owners: Abinaya M 
+                          Anusha Maai T M 
+        </pre>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
